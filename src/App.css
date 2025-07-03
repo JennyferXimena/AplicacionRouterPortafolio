@@ -1,0 +1,148 @@
+/*ENCABEZADO*/
+h3{
+  color: black;
+  text-decoration: underline;
+  margin-left: 200px;
+}
+.encabezado{
+  display: flex;
+  padding: 15px;
+  gap:20px;
+  align-items: center;
+  background-color: rgb(152, 214, 193);
+}
+.listas{
+  margin-left: auto;
+  margin-right: 200px;
+}
+.menus{
+  color: black;
+  display: flex;
+  gap: 20px;
+  padding: 10;
+  list-style: none;
+  align-items: center;
+}
+.menus li:hover {
+  color: blue;
+  text-decoration: underline;
+}
+/*INICIO*/
+.inicio {
+  display: flex;
+  background-color: rgb(55, 150, 162);
+  flex-direction: column; /*Uno debajo del otro*/
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.titulo{
+  font-size: 50px;
+  margin: 0;
+}
+img{
+  width: 600px;
+  height: auto;
+}
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: aqua;
+}
+button:hover {
+    background-color: #0056b3; /* azul más oscuro al pasar el mouse */
+}
+
+/*QUIEN SOY */
+.contenido{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}
+h2{
+font-size: 40px;
+color: blue;
+}
+.texto{
+  max-width: 500px; /*El ancho puede ser menor, pero no mayor que 500px*/
+}
+.img{
+  margin: 30px;
+  width: 250px;
+  height: auto;
+}
+
+/*PROYECTOS*/
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.texto2{
+  display: flex;
+  flex-direction: column; /*Uno debajo del otro*/
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.texto2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.titulo3{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.parte3{
+  background-color: rgb(144, 215, 238);
+}
+
+/*EXPERTO*/
+
+.imagenes{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+}
+.imagenes img{
+  width: 100px;
+  height: auto;
+  object-fit: cover; /*Sin distorcion*/
+  border-bottom: 8px;
+}
+
+/*CONTACTOS */
+.inicio2 {
+  display: flex;
+  background-color: rgb(55, 150, 162);
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.texto4{
+    margin-left: 200px;
+}
+.texto5 {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* centra imagen horizontal */
+}
+.texto5 img {
+    max-width: 100%;
+    height: auto; /* evita distorsión */
+  }
+  .texto5 img {
+    width: 300px;
+}
